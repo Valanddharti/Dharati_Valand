@@ -115,6 +115,20 @@ h6 {
     -moz-box-sizing: border-box;
     box-sizing: border-box
 }
+.status{
+    flex-direction:column;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin:0 auto;
+    border-radius: 8px;
+    background-color: rgb(211,250,153);
+    color:white;
+    font-style: italic;
+    animation: status 4s ease delay forwards;
+}
+
 
 #preloader {
     position: fixed;
@@ -398,7 +412,6 @@ h6 {
     border-left: 1px solid #ebebeb;
     min-height: 100vh
 }
-
 .tokyo_tm_section {
     position: fixed;
     top: 0;
